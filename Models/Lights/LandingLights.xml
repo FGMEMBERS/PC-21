@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>LandingLights.ac</path>
+
+<animation>
+<type>select</type>
+<object-name>Light1</object-name>
+<object-name>Light2</object-name>
+<condition>
+<property>/controls/lighting/landing-lights</property>
+</condition>
+</animation>
+
+<animation>
+<type>noshadow</type>
+<object-name>Light1</object-name>
+<object-name>Light2</object-name>
+</animation>
+
+<animation>
+<type>rotate</type>
+<object-name>Light1</object-name>
+<object-name>Light2</object-name>
+<property>gear/gear[0]/position-norm</property>
+<interpolation>
+<entry>
+<ind>0.0</ind>
+<dep>-100</dep>
+</entry>
+<entry>
+<ind>0.3</ind>
+<dep>-100</dep>
+</entry>
+<entry>
+<ind>0.5</ind>
+<dep>-100</dep>
+</entry>
+<entry>
+<ind>1.0</ind>
+<dep>0</dep>
+</entry>
+</interpolation>
+<axis>
+<x1-m>-2.87</x1-m>
+<y1-m>-0.05</y1-m>
+<z1-m> 0.32</z1-m>   
+<x2-m>-2.87</x2-m>
+<y2-m> 0.05</y2-m>
+<z2-m> 0.32</z2-m>
+</axis>
+</animation>
+
+</PropertyList>
