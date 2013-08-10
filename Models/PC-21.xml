@@ -1138,7 +1138,7 @@ livery_update.stop();
 
 <model>
 <name>HUDRepeater</name>
-<path>Aircraft/PC-21/Models/Instruments/HUD Repeater/HUDRepeater.xml</path>
+<path>Aircraft/PC-21/Models/Instruments/HUD_Repeater/HUDRepeater.xml</path>
 <offsets>
 <x-m>-0.58</x-m>
 <y-m> 0.00</y-m>
