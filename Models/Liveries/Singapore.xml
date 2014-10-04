@@ -5,7 +5,11 @@
 <sim>
 <model>
 <livery>
+<<<<<<< HEAD
 <name type="string">Singapore</name>
+=======
+<name type="string">Republic of Singapore Air Force</name>
+>>>>>>> 3a5855e... liveries
 <texture>Liveries/Singapore.png</texture>
 </livery>
 <livery-logo>

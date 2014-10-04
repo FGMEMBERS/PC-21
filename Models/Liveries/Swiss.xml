@@ -5,7 +5,11 @@
 <sim>
 <model>
 <livery>
+<<<<<<< HEAD
 <name type="string">Swiss</name>
+=======
+<name type="string">Swiss Air Force</name>
+>>>>>>> 3a5855e... liveries
 <texture>Liveries/Swiss.png</texture>
 </livery>
 <livery-logo>
