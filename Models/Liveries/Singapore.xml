@@ -6,10 +6,14 @@
 <model>
 <livery>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <name type="string">Singapore</name>
 =======
 <name type="string">Republic of Singapore Air Force</name>
 >>>>>>> 3a5855e... liveries
+=======
+<name type="string">Republic of Singapore Air Force</name>
+>>>>>>> 5f30c03... liveries
 <texture>Liveries/Singapore.png</texture>
 </livery>
 <livery-logo>
