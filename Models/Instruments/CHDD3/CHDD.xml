@@ -1,23 +1,34 @@
 <?xml version="1.0"?>
 <PropertyList>
 
-    <path>CHDD.ac</path>
+	<path>CHDD.ac</path>
     
-    <animation>
+	<animation>
 		<type>range</type>
 		<min-m>0</min-m>
-		<max-m>5</max-m>
+		<max-m>20</max-m>
 	</animation>
     
-    <animation>
-        <type>material</type>
-        <object-name>background</object-name>
-        <emission>
-		<red>0.045</red>
-		<green>0.025</green>
-		<blue>0.015</blue>
-        <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-        </emission>
-    </animation>
+	<model>
+		<name>radar</name>
+		<path>Aircraft/PC-21/Models/Instruments/CHDD3/radar.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+			<pitch-offset>0</pitch-offset>
+		</offsets>
+	</model>
+  
+	<model>
+		<path>Aircraft/PC-21/Models/Instruments/CHDD3/terrain-map-pixel.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+			<pitch-offset>0</pitch-offset>
+		</offsets>
+	</model>
+  
 
 </PropertyList>
